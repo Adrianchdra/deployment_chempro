@@ -6,7 +6,6 @@ Bobot = st.number_input("Masukan Bobot Sampel, dalam satuan gram")
 BK = st.number_input("Masukan Bobot Cawan Kosong, dalam satuan gram")
 BT = st.number_input("Masukan Bobot Total, dalam satuan gram")
 FK = st.number_input("Masukan Faktor Kimia Sampel")
-KS = st.number_input("Masukan Kadar Sebenarnya")
 
 Kadar = st.button("KADAR")
 
