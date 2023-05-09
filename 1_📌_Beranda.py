@@ -13,7 +13,7 @@ import streamlit as st
 
 from PIL import Image
 
-img = Image.open("D:\ProjectLPK\Aplikasi\pages\ChemPro.jpg")
+img = Image.open("D:\ProjectLPK\Clone\ChemPro.jpg")
 
 st.image(img, width=200)
 
