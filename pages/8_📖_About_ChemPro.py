@@ -4,7 +4,7 @@ from PIL import Image
 st.title("Welcome to ChemPro")
 st.text("Your Chemical Support")
 
-img = Image.open("D:\ProjectLPK\Aplikasi\pages\ChemPro.jpg")
+img = Image.open("D:\ProjectLPK\Clone\ChemPro.jpg")
 
 st.image(img, width=500)
 
