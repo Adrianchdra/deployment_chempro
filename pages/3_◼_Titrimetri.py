@@ -8,7 +8,6 @@ Volume = st.number_input("Masukan Volume Titran, dalam satuan mililiter")
 Konsentrasi = st.number_input("Masukan Konsentrasi Titran")
 BEBM = st.number_input("Masukan BE atau BM")
 FP = st.number_input("Masukan Faktor Pengali atau Pengenceran")
-KS = st.number_input("Masukan Kadar Sebenarnya")
 
 Kadar = st.button("KADAR")
 
