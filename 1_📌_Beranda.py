@@ -14,8 +14,7 @@ import streamlit as st
 from PIL import Image
 
 img = Image.open("D:\ProjectLPK\Clone\ChemPro.jpg")
-
-st.image(img, width=200)
+st.image(img)
 
 
 st.text("Perhatian! : Aplikasi ini digunakan sebagai alat bantu")
