@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon="house"
 )
 
-st.title("Welcome to ChemPro")
+st.title("ChemPro")
 st.write("ChemPro merupakan aplikasi yang ditujukan sebagai alat bantu dalam melakukan analisis kimia")
 
 import streamlit as st
