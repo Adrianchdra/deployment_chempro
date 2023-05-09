@@ -9,12 +9,8 @@ FK = st.number_input("Masukan Faktor Kimia Sampel")
 KS = st.number_input("Masukan Kadar Sebenarnya")
 
 Kadar = st.button("KADAR")
-Kesalahan = st.button("KESALAHAN")
 
 if Kadar:
     Kadar = (((BT-BK)*FK)/Bobot)*100
     st.success(f"{Kadar} %")
 
-if Kesalahan:
-    Kesalahan = ((KS-Kadar)/KS)*100
-    st.success(f"{Kesalahan} %")
