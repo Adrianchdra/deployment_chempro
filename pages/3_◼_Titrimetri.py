@@ -12,5 +12,5 @@ FP = st.number_input("Masukan Faktor Pengali atau Pengenceran")
 Kadar = st.button("KADAR")
 
 if Kadar:
-    Kadar = ((Volume*Konsentrasi*BEBM*FP)/1000*100)/VolumSampel
+    Kadar = (((Volume*Konsentrasi*BEBM*FP)/1000)*100)/VolumSampel
     st.success(f"{Kadar} %")
